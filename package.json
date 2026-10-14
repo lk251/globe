@@ -1,0 +1,20 @@
+{
+  "name": "lk251-globe",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "refresh-data": "node scripts/refresh-data.mjs"
+  },
+  "dependencies": {
+    "event-emitter": "^0.3.5",
+    "three": "0.128.0"
+  },
+  "devDependencies": {
+    "sass": "^1.80.0",
+    "vite": "^6.3.5"
+  }
+}
